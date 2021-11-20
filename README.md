@@ -8,3 +8,4 @@
 4：Double_DQN应用于CartPole<br/>
 5：Dueling_DQN应用于CartPole<br/>
 6：DDPG算法应用于Pendulum<br/>
+7：TD3算法应用于Pendulum<br/>
