@@ -12,3 +12,5 @@
 8：PG算法应用于CartPole<br/>
 9：AC算法应用于CartPole<br/>
 10：A3C算法应用于BipedalWalker<br/>
+11：PPO算法应用于Pendulum<br/>
+12：DPPO算法应用于Pendulum<br/>
