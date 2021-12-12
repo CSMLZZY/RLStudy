@@ -51,6 +51,8 @@ class PPO(object):
         self.actor = self._build_anet('pi', trainable=True)
         self.actor_old = self._build_anet('oldpi', trainable=False)
         self.actor_opt = tf.optimizers.Adam(A_LR)
+        self.critic_opt = tf.optimizers.Adam(C_LR)
+
 
     # 更新actor
     def a_train(self, tfs, tfa, tfadv):
